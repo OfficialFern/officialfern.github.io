@@ -1,4 +1,6 @@
-
+body {
+  background-image: url(https://images.wallpaperscraft.com/image/single/snow_winter_trees_136654_1920x1080.jpg)
+}
 
 #header {
   text-align: center;
@@ -42,7 +44,7 @@
 
 /* Style the content */
 .content {
-  background-color: lightblue;
+ 
   padding: 10px;
   text-align:center;
   font-size:xx-large;
@@ -62,16 +64,38 @@
     font-size: x-large;
   float:left;
   width: 50%;
-  background-color:lightblue;
+  
   
   
 }
+#footer h1 {
+  background-color: white;
+  width: 400px;
+  text-align: center;
+}
 
+#footer h2 {
+  background-color: white;
+  width: 270px;
+  text-align:center; 
+}
+
+#footer h3 {
+  background-color: white;
+  width: 300px;
+  text-align: center;
+}
 
 #contact {
   text-align:left;
-  background-color: lightblue;
+  text-color: white
   height: 56%;
   width: 50%;
   float: right;
+}
+
+#contact h1 {
+  background-color: white;
+  width: 600px;
+  text-align: center;
 }
